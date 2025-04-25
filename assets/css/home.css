@@ -1,0 +1,154 @@
+/* BODY */
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: oxygen;
+}
+
+body {
+  /* background: #F1F1F1 !important; */
+}
+
+img {
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+hr {
+  opacity: 1 !important;
+  background-color: #EB5B00 !important;
+  height: 1px !important;
+}
+
+/* SECTIONS */
+section {
+  padding-top: 100px;
+}
+
+/* SECTION - ONE */
+.section-one {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 2.5%;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+
+
+/* SECTION - TWO */
+.section-two {
+  padding-top: 50px;
+}
+.section-two .box {
+  border-radius: 50px;
+  padding: 4em;
+  background: #F5FCED;
+  box-shadow: 0px 0px 75px 2px rgba(0,0,0,0.1);
+}
+.section-two .parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  gap: 4em;
+}
+.section-two .details {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+.section-two h1 {
+  color: #224B73;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 54px;
+}
+.section-two p {
+  font-size: 15px;
+  color: #224B73;
+}
+
+
+
+
+/* SECTION - THREE */
+.section-three {
+  padding-top: 50px;
+}
+
+.section-three .box {
+  border-radius: 50px;
+  padding: 4em;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px 2px rgba(0,0,0,0.1);
+  margin-bottom: 3.5em;
+  display: flex;
+  align-items: center;
+}
+
+.section-three h1 {
+  color: #5BA62A;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.section-three h3 {
+  color: #5BA62A;
+  font-weight: 300;
+  margin-bottom: 1.35em;
+}
+
+.section-three p {
+  color: #224B73;
+  font-size: 18px;
+  margin-bottom: 1.25em;
+}
+
+.section-three img {
+  display: flex;
+  margin: auto;
+}
+
+.section-three .box-3 {
+  display: block;
+}
+.section-three .box-3 .content {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.section-three .core {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-three .core img {
+  max-width: 100%;
+}
+
+.section-three .core h2 {
+  margin-top: 1em;
+  color: #224B73;
+  font-size: 21px;
+}
