@@ -6,7 +6,16 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: oxygen;
+}
 
 /* HEADER - NAVBAR */
 .header {
@@ -77,14 +86,14 @@ img {
 .header .navbar-nav ul li a {
   padding-inline: 2em;
   position: relative;
-  font-size: 16px;
+  font-size: 15px;
   color: #132B42 !important;
-  font-weight: 300;
+  font-weight: 500;
   transition: 0.3s;
   display: inline-block;
 }
 .header .navbar-nav ul li a.active {
-  background: #3d8b09a1;
+  background: #5ca62acc;
   border-radius: 50px;
 }
 /* .header .navbar-nav ul li a::after {
