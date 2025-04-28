@@ -39,3 +39,16 @@ a {
   font-size: 16px;
   color: #224B73;
 }
+
+@media (max-width: 991px) {
+  .footer ul {
+    padding: 0;
+    text-align: center;
+  }
+  .footer .logo {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+  }
+}

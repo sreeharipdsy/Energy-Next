@@ -19,18 +19,20 @@ a {
 
 /* HEADER - NAVBAR */
 .header {
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   z-index: 999;
   padding-top: 0;
+  background: #ffffff;
+  top: 0;
 }
 .header .navbar {
   padding-bottom: 0;
+  padding-top: 0 !important;
 }
 .header .navbar .container {
   /* background: #fffcfc; */
-  margin-top: 1em;
-  padding: 0.75em 1.5em;
+  padding: 1.5em 1.5em;
   border-radius: 0 2.5em;
 }
 .header .navbar .logo img {
@@ -148,7 +150,7 @@ a {
   width: 1em;
   height: 2px;
   margin-left: 5px;
-  background-color: #EB5B00;
+  background-color: #5BA62A;
   transition: all 0.3s;
 }
 .header .navbar button[aria-expanded="true"] {
@@ -185,10 +187,10 @@ a {
   }
   .header .navbar-nav ul li {
     padding-block: 1px;
+    flex-direction: column;
   }
   .header .navbar-nav ul li a {
     font-size: 14px;
-    background: #fff7f4;
     border-radius: 10px;
     padding-top: 10px;
   }

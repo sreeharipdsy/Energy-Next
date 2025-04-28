@@ -100,12 +100,15 @@
 
       <!-- Hero Section -->
       <section class="section-one">
-        <div class="container">
-          <img src="assets/images/header-banner-section.svg" alt="" class="w-100 pt-4" data-aos="fade-up">
+        <div class="container hero-section" data-aos="fade-up">
+          <div class="hero-content" data-aos="zoom-in">
+            <h1>The Future of Gas Energy</h1>
+            <p>Building the Backbone of Energy Infrastructure</p>
+          </div>
         </div>
       </section>
     </div>
- 
+
     <!-- Section Two -->
     <section class="section-two">
       <div class="container">
@@ -113,25 +116,25 @@
             <div class="parent">
               <div class="details">
                 <img src="assets/icons/1.svg" alt="">
-                <h1>80+</h1>
+                <h1 class="count" data-target="80">0</h1>
                 <p>Hotels</p>
               </div>
               <div class="details">
                 <img src="assets/icons/2.svg" alt="">
-                <h1>30K+</h1>
+                <h1 class="count" data-target="30000">0</h1>
                 <p>Residential units</p>
               </div>
               <div class="details">
                 <img src="assets/icons/3.svg" alt="">
-                <h1>20+</h1>
+                <h1 class="count" data-target="20">0</h1>
                 <p>Factories</p>
               </div>
               <div class="details">
                 <img src="assets/icons/4.svg" alt="">
-                <h1>80M+</h1>
+                <h1 class="count" data-target="80000000">0</h1>
                 <p>distributed LPG litres per year</p>
               </div>
-            </div>
+            </div>            
           </div>
       </div>
     </section>
@@ -211,10 +214,10 @@
     <section class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 order-lg-1 order-2">
             <img class="logo" src="assets/icons/energy_next_logo.svg" alt="">
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 order-1 order-lg-2">
             <div class="footer-links">
               <ul>
                 <li><a href="">Privacy Policy</a></li>
@@ -241,6 +244,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="assets/js/count.js"></script>
 
     <!-- Animation On Scroll - AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
